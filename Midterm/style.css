@@ -5,4 +5,6 @@
 
 header{
     background-image: url(images/ww-cast.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
