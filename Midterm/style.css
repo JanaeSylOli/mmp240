@@ -4,7 +4,6 @@
 }
 
 header{
-    background-image: url(images/ww-cast.jpg);
-    background-repeat: no-repeat;
-    background-position: right top;
+    background: url(images/ww-cast.jpg) right top no-repeat;
+    
 }
