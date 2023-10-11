@@ -1,0 +1,8 @@
+#wrapper{
+    max-width: 1200px;
+    margin: 0 auto; /* first value is for top/bottom, second valur for left/right */
+}
+
+header{
+    background-image: url(images/ww-cast.jpg);
+}
