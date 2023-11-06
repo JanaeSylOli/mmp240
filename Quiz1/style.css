@@ -1,19 +1,24 @@
+<style>
+
 /* Element selector */
-h1 {
+    h1 {
+    a {font-weight: bold;}
     color: red;
-  }
+    }
   
   /* Descendant selector */
-  header h1 {
-    color: red;
-  }
+    h1 em {color: red;}
+    
+   
   
   /* Class selector */
-  .main-title {
-    color: red;
-  }
+   a {.hilight { background-color: red;}}
+  
   
   /* ID selector */
-  #site-title {
-    color: red;
-  }
+   
+    <li#primary {color: red;}#sitetitle </li>
+
+   
+   
+  
