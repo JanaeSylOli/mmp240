@@ -6,7 +6,7 @@ https://JanaeSylOli.github.io/mmp240/index.html
 https://janaesyloli.github.io/mmp240/Midterm/index.html
 
                    Quiz1
-https://janaesyloli.github.io/mmp240/Quiz1/quiz.html
+https://janaesyloli.github.io/mmp240/Quiz1/quiz1.html
 
                   Quiz2
 https://janaesyloli.github.io/mmp240/Quiz2/quiz2.html
