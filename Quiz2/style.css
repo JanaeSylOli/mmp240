@@ -16,6 +16,5 @@ width: 100%;
 
 .one{
     grid-column-start: 1
-    
-    g
+    grid-column-end: -4
 }
