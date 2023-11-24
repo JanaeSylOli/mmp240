@@ -1,19 +1,19 @@
-/* Element selector */
+/* Element selector - targets all <h1> elements */
 h1 {
-    color: red;
-  }
-  
-  /* Descendant selector */
-  header h1 {
-    color: red;
-  }
-  
-  /* Class selector */
-  .main-title {
-    color: red;
-  }
-  
-  /* ID selector */
-  #site-title {
-    color: red;
-  }
+  color: red;
+}
+
+/* Descendant selector - targets <h1> elements that are descendants of <header> elements */
+header h1 {
+  color: red;
+}
+
+/* Class selector - targets elements with the class "main-title" */
+.main-title {
+  color: red;
+}
+
+/* ID selector - targets the element with the id "site-title" */
+#site-title {
+  color: red;
+}
