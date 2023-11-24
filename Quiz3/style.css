@@ -1,0 +1,25 @@
+<style>
+    .container {
+        max-width: 1140px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        background-color: cornflowerblue;
+        justify-content: space-around; /* Distributes items evenly with space around */
+        align-items: center; /* Centers items vertically */
+    }
+
+    .box {
+        width: 200px;
+        height: 200px;
+        background-color: deeppink;
+        margin: 16px;
+        text-align: center;
+    }
+
+    .jump {
+        align-self: flex-end; /* Aligns this item to the bottom */
+    }
+</style>
