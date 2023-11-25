@@ -12,5 +12,5 @@ https://janaesyloli.github.io/mmp240/Quiz1/quiz1.html
 https://janaesyloli.github.io/mmp240/Quiz2/quiz2.html
 
                 Quiz3
-https://janaesyloli.github.io/mmp240/quiz3/quiz3.html
+https://janaesyloli.github.io/mmp240/Quiz3/quiz3.html
 
