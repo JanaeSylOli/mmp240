@@ -69,8 +69,26 @@ footer { /* making sure nothing floats next to footer */
 
 .episodes{
     display: flex;
+    flex-wrap: wrap;
+   /* justify-content: space-around; */
+}
+
+.card{
+    flex: 0 0 200px;
+    margin-right: 2em;
+    border: solid 1px; #ccc;
+    margin-bottom: 2em;
+
 }
 
 .card img{
     float: left;
+}
+
+.card: :last-child{
+    margin: right 0;
+}
+
+.card p, .card h3{
+    margin: 1em;
 }
