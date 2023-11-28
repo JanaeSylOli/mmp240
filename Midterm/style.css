@@ -7,7 +7,7 @@ header{
     padding: 2em;
     background: 
     linear-gradient(90deg,rgba(0,0,0,1) 0, rgba(0,0,0,1)300px, rgba(255,255,255,0)600px),
-    url(images/csm-cast.png) right top no-repeat,
+    url(images/csm-cast.png) no-repeat top right /70%,
     black;
 }
 
