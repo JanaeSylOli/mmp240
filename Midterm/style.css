@@ -35,4 +35,6 @@ h1 img{
 
 li{
     display: inline;
+    margin-right: 2em;
+    background-color: #ccc;
 }
