@@ -4,6 +4,7 @@
 }
 
 header{
+    background: ;
     padding: 2em;
     background: 
     linear-gradient(90deg,rgba(0,0,0,1) 0, rgba(0,0,0,1)300px, rgba(255,255,255,0)600px),
@@ -51,3 +52,13 @@ nav{
     padding: 0.1em 0; /* first value for top and bottom second value for left and right */
 }
     
+.col{
+    float:left;
+    width: 50%;
+    margin-right: 2%;
+}
+
+.col:last-child{
+    margin: 0;
+}
+
