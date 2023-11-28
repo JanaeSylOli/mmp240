@@ -41,5 +41,6 @@ li{
 
 nav{
     background-color: #ccc;
-
+    padding: 0.1em 0; /* first value for top and bottom second value for left and right */
 }
+    
