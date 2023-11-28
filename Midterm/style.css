@@ -36,6 +36,8 @@ h1 img{
 nav li{
     display: inline;
     margin-right: 2em;
+    border-right: solid 1px #fff;
+    padding-right: 2em;
     
     
 }
