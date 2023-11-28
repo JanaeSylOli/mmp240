@@ -63,7 +63,7 @@ nav{
 
 }
 
-footer {
+footer { /* making sure nothing floats next to footer */
     clear:both;
 }
 
