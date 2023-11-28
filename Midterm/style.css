@@ -21,7 +21,7 @@ h1 img{
 }
 
 .button{
-    background-color: #darkred;
+    background-color: darkred; 
     padding:10px;
     border-radius: 10px;
     color: #fff;
