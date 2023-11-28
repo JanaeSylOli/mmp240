@@ -89,6 +89,6 @@ footer { /* making sure nothing floats next to footer */
     margin: right 0;
 }
 
-.card p, .card h3{
+.card p,.card h3{
     margin: 1em;
 }
