@@ -54,11 +54,12 @@ nav{
     
 .col{
     float:left;
-    width: 50%;
+    width: 48%;
     margin-right: 2%;
 }
 
 .col:last-child{
-    margin: 0;
+    margin-right: 0;
+
 }
 
