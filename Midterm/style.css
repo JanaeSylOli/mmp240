@@ -83,6 +83,7 @@ footer { /* making sure nothing floats next to footer */
 
 .card img{
     float: left;
+    width: 100%;
 }
 
 .card: :last-child{
