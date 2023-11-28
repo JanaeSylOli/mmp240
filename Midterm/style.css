@@ -67,3 +67,10 @@ footer { /* making sure nothing floats next to footer */
     clear:both;
 }
 
+.episodes{
+    display: flex;
+}
+
+.card img{
+    float: left;
+}
