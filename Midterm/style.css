@@ -46,7 +46,7 @@ nav a {
 }
 
 nav{
-    background-color: #333;
+    background-color: black;
     padding: 0.1em 0; /* first value for top and bottom second value for left and right */
 }
     
