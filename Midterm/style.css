@@ -30,3 +30,9 @@ h1 img{
     color: #fff;
     text-decoration: none;
 }
+
+/* Navigation Bar */
+
+li{
+    display: inline;
+}
