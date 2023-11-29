@@ -1,0 +1,40 @@
+/* Remove default padding, margin, and list style */
+ul.menu, .submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main menu links */
+ul.menu  li  a {
+    text-decoration: none;
+    color: #333; /* Replace with your desired text color */
+    background-color: #f8f8f8; /* Replace with your desired background color */
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Replace with your desired border color */
+}
+
+/* Float arrow icons to the right */
+.arrow-down {
+    float: right;
+    font-size: 0.8em; /* Adjust size as needed */
+}
+
+/* Style the submenu links differently using descendant selector */
+ul.menu li
+ ul.submenu li a {
+    background-color: #e9e9e9; /* Different background color for submenu */
+    padding-left: 20px; /* Indent submenu items */
+    border-bottom: none; /* Optional: remove border for submenu items */
+}
+
+/* Hide the dropdown menu */
+ul.submenu {
+    display: none;
+}
+
+/* Show the dropdown menu on hover */
+ul.menu  li:hover .submenu {
+    display: block;
+}
