@@ -1,1 +1,24 @@
 /* Design @ CUNY Styles */
+body{
+    margin: 0.5em;
+
+}
+#wrapper{
+    max-width: 1200px;
+}
+
+header{
+    /* display: ;flex;
+    justify-content: space-between; */
+}
+
+h1{
+    float: left;
+}
+
+.topNav nav{
+    display: none;
+    clear: right; /* clears right float */
+    border: solid 1px; color: #ccc;
+
+}
