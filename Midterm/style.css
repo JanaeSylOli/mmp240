@@ -86,7 +86,7 @@ footer { /* making sure nothing floats next to footer */
     width: 100%;
 }
 
-.card: :last-child{
+.card :last-child{
     margin: right 0;
 }
 
