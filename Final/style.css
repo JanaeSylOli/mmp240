@@ -128,5 +128,9 @@ article img{
 }
 
 .date {
-    marg
+    margin-top: 0.5em;
+}
+
+footer{
+    font-size: smaller;
 }
