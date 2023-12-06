@@ -22,6 +22,10 @@ a{
     color: cadetblue;
 }
 
+nav a{
+    text-decoration: none;
+}
+
 h2{
     text-transform: uppercase;
     color: rgb(255, 140, 0);
@@ -47,10 +51,12 @@ h1{
     clear: right; /* clears right float */
     border: solid 1px; color: #ccc;
     padding: 0.5em;
+    text-align: center;
 }
 
 .topNav nav li{
     margin-bottom: 1em;
+    border-bottom: solid 1px #ccc;
 }
 
 #menu{
@@ -123,7 +129,11 @@ article{
     margin: 1em 0;
 }
 
-article img{
+/*article img{
+    width: 100%;
+}*/
+
+.flexImg{
     width: 100%;
 }
 
