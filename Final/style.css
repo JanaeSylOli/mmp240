@@ -4,6 +4,7 @@
 
 body{
     margin: 0.5em;
+    margin-top: 1em;
     font-family: 'Work Sans', sans-serif;
     line-height: 1.4em;
 }
@@ -13,7 +14,7 @@ p{
     margin-top: 1em;
 }
 
-h2, h3, strong{
+h1,h2, h3, strong{
     font-weight: bold;
 }
 
@@ -31,6 +32,8 @@ h2{
 }
 
 header{
+    margin-bottom: 1em;
+    overflow: auto;
     /* display: ;flex;
     justify-content: space-between; */
 }
