@@ -1,8 +1,19 @@
 /* Design @ CUNY Styles */
 body{
     margin: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+
+p{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+h2, h3, strong{
+    font-weight: bold;
+}
+
 #wrapper{
     max-width: 1200px;
 }
@@ -86,5 +97,17 @@ margin-top: 1em;
 text-align: center;
 border-radius: 10px;
 box-shadow: 3px 3px 3px #000;
+}
+
+section{
+    margin: 2em 0;
+}
+
+article{
+    margin: 1em 0;
+}
+
+article img{
+    width: 100%;
 }
 
