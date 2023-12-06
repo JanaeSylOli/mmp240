@@ -154,4 +154,14 @@ footer{
        position: absolute;
        width: 100%;
     }
+
+    /* top most navigation is visible on large screens */
+
+    .topNav nav{
+        display:block;
+    }
+
+    #menu{
+        display: none
+    }
 }
