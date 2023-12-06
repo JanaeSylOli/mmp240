@@ -164,4 +164,15 @@ footer{
     #menu{
         display: none
     }
-}
+
+    .topNav ul, .topNav li, .topNav form{
+        display: inline;
+        margin-left: 1em;
+    }
+
+    .topNav nav{
+        border: none;
+        float: right;
+        margin-right: 0;
+    }
+} /* closing media query */
