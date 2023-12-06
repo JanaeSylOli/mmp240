@@ -51,4 +51,34 @@ h1{
     background-color: aqua;
 }
 
-.programNav 
+.programNav li:hover .dropdown{
+    display: block;
+}
+
+.program-select{
+    margin-bottom: 1em;
+}
+
+/* banner */
+
+.banner{
+    padding: 2em;
+    padding-top: 3em;
+    height: 200px;
+    background: url(images/queens-banner.png) no-repeat;
+    background-size: cover;
+}
+
+.banner p{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.btn{
+background-color: brown;
+padding: 0.5em;
+text-transform: uppercase;
+color: #fff;
+}
+
