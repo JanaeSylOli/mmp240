@@ -145,6 +145,28 @@ footer{
     font-size: smaller;
 }
 
+.programs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em ;
+}
+
+.programs a{
+    text-decoration: none;
+}
+
+.program-card img{
+    width: 100%;
+}
+
+.program-card{
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+.program-card p .program-card h3 .program-card h4{
+    margin: 1em;
+}
+
 @media (min-width: 768px){
     main{
         display: grid;
