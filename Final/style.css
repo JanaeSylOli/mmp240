@@ -145,11 +145,7 @@ footer{
     font-size: smaller;
 }
 
-.programs{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em ;
-}
+
 
 .programs a{
     text-decoration: none;
@@ -206,5 +202,11 @@ footer{
         border: none;
         float: right;
         margin-right: 0;
+    }
+
+    .programs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em ;
     }
 } /* closing media query */
