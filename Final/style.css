@@ -144,6 +144,15 @@ article{
 footer{
     font-size: smaller;
 }
+.programs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(320px 1fr));
+    grid-template-rows: auto auto;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    font-family: sans-serif;
+}
+
 
 .programs a{
     text-decoration: none;
