@@ -149,27 +149,27 @@ footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1em;
-   }
+}
 
-   .programs a{
+.programs a{
     text-decoration: none;
     color: #333;
-}
+    }
 
 .program-card img{
     width: 100%;
-}
+    }
 
 .program-card{
     /* border: solid 1px black;*/
      box-shadow: 3px 3px 10px #ccc;
      
- }
+    }
 
 
 .program-card p .program-card h3 .program-card h4{
     margin: 1em;
-}
+    }
 
 @media (min-width: 768px){
     
@@ -224,7 +224,7 @@ footer{
         grid-gap: 1em;
        }
 
-       .programs a{
+    .programs a{
         text-decoration: none;
         color: #333;
     }
