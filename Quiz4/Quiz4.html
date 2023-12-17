@@ -18,13 +18,15 @@
       }
       .redbox{
         background-color:red;
+        z-index: 1
       }
       .bluebox{
         
         background-color: blue;
-        position: absolute; 
-        top: 50px; 
-        left: 0; 
+        position: absolute;
+        top: 0; /* Aligns the top edge of the blue box with the top edge of the red box */
+        left: 0; /* Aligns the left edge of the blue box with the left edge of the red box */
+        z-index: 2; 
          
       }
 
