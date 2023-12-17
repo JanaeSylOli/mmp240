@@ -16,16 +16,16 @@
         padding: 50px;
         color: white;
         text-align: center;
-        position: relative; /* Add position relative here to keep the stacking context */
-        z-index: 1; /* This ensures that it has a stacking context above the default */
+        position: relative; 
+        z-index: 1; 
       }
       
       .bluebox {
         background-color: blue;
-        position: absolute; /* Position it absolutely relative to its parent */
-        top: 0; /* Adjust this value so it sits on top of the red box */
-        left: 0; /* Adjust this value based on your layout */
-        z-index: 2; /* Ensure it's above the red box */
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        z-index: 2; 
       }
 
       .redbox {
@@ -34,8 +34,8 @@
 
       .greenbox {
         background-color: green;
-        position: relative; /* This will ensure it's placed correctly relative to the parent container */
-        z-index: 1; /* It should be on the same level as the red box, but will naturally flow below */
+        position: relative; 
+        z-index: 1; 
       }
     </style>
 
