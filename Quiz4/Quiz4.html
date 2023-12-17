@@ -7,8 +7,9 @@
 
     <style>
       .colorboxes{
-        margin:100px;
-        width:500px;
+        margin: 100px;
+        width: 500px;
+        position: relative;
       }
       .box{
         padding:50px;
@@ -19,10 +20,18 @@
         background-color:red;
       }
       .bluebox{
-        background-color:blue;
+        
+        background-color: blue;
+        position: absolute; 
+        top: 50px; 
+        left: 0; 
+         z-index: 1;
       }
+      
       .greenbox{
-        background-color:green;
+        background-color: green;
+        position: relative; /* Added to keep green box in the flow */
+        top: 100px;
       }
       </style>
 
