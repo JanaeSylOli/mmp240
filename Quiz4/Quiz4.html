@@ -7,34 +7,32 @@
 
     <style>
       .colorboxes{
-        margin: 100px;
-        width: 500px;
-        /*position: relative;*/
+        position: relative;
+        margin:100px;
+        width:500px;
       }
       .box{
         padding:50px;
         color:white;
         text-align:center;
-        position: relative; /* Add this if you want to position boxes relative to each other */
-        z-index: 1;
+        position: absolute;
       }
       .redbox{
         background-color:red;
-        z-index: 1
+        left: 0;
+        top: 0;
       }
       .bluebox{
         
-        background-color: blue;
-        position: absolute;
-        top: 0; 
-        left: 0; 
-        z-index: 2; 
+        background-color:blue;
+        left: 0;
+        top: 100px;
          
       }
 
       .greenbox{
-        background-color: green;
-        position: relative; 
+        background-color:green;
+        left: 200px;
         top: 100px;
       }
       </style>
